@@ -11,6 +11,8 @@
 		A9F5A67A28080BCF00D04550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A67928080BCF00D04550 /* ContentView.swift */; };
 		A9F5A67C28080BD300D04550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F5A67B28080BD300D04550 /* Assets.xcassets */; };
 		A9F5A67F28080BD300D04550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F5A67E28080BD300D04550 /* Preview Assets.xcassets */; };
+		A9F5A68B28080E2500D04550 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A68A28080E2500D04550 /* MapView.swift */; };
+		A9F5A68C28080E2500D04550 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A68928080E2500D04550 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A9F5A67928080BCF00D04550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9F5A67B28080BD300D04550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F5A67E28080BD300D04550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9F5A68928080E2500D04550 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		A9F5A68A28080E2500D04550 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A9F5A67728080BCF00D04550 /* SwiftUI_EssentialsApp.swift */,
 				A9F5A67928080BCF00D04550 /* ContentView.swift */,
+				A9F5A68928080E2500D04550 /* CircleImage.swift */,
+				A9F5A68A28080E2500D04550 /* MapView.swift */,
 				A9F5A67B28080BD300D04550 /* Assets.xcassets */,
 				A9F5A67D28080BD300D04550 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F5A67A28080BCF00D04550 /* ContentView.swift in Sources */,
+				A9F5A68C28080E2500D04550 /* CircleImage.swift in Sources */,
+				A9F5A68B28080E2500D04550 /* MapView.swift in Sources */,
 				A9F5A67828080BCF00D04550 /* SwiftUI_EssentialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
