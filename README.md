@@ -1,2 +1,2 @@
-# SwiftUI-Essentials
-SwiftUI Essentials
+# SwiftUI Essentials
+Creating and Combining Views
