@@ -25,6 +25,10 @@ struct Landmark: Hashable, Codable, Identifiable {
         case mountains = "Mountains"
     }
     
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
+    
     private var imageName: String
     var image: Image {
         Image(imageName)
