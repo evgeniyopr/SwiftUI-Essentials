@@ -14,6 +14,7 @@
 		A92C6A3A280971E400A2EE18 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A39280971E400A2EE18 /* ImageLoader.swift */; };
 		A92C6A3C280971E800A2EE18 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A3B280971E800A2EE18 /* EnvironmentValues+ImageCache.swift */; };
 		A92C6A3F2809723800A2EE18 /* TestLoadViewOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A3E2809723800A2EE18 /* TestLoadViewOld.swift */; };
+		A94B0F322809A50C008E0BF4 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B0F312809A50C008E0BF4 /* URLImage.swift */; };
 		A9C2834F2808209200329FAC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909693028082033002734E5 /* Badge.swift */; };
 		A9C283502808209500329FAC /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909692F28082033002734E5 /* BadgeBackground.swift */; };
 		A9C283512808209800329FAC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909693228082033002734E5 /* BadgeSymbol.swift */; };
@@ -71,6 +72,7 @@
 		A92C6A39280971E400A2EE18 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		A92C6A3B280971E800A2EE18 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
 		A92C6A3E2809723800A2EE18 /* TestLoadViewOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadViewOld.swift; sourceTree = "<group>"; };
+		A94B0F312809A50C008E0BF4 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		A9C283542808218000329FAC /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		A9C28356280821B100329FAC /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		A9C283592808224F00329FAC /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				A9C283A1280863A600329FAC /* BlurView.swift */,
 				A9C283A4280864B500329FAC /* HUDProgressView.swift */,
 				A9C283A928086EBE00329FAC /* AlertControllerView.swift */,
+				A94B0F312809A50C008E0BF4 /* URLImage.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				A9C2838E2808349E00329FAC /* ProfileSummary.swift in Sources */,
 				A9F5A69D2808179800D04550 /* FavoriteButton.swift in Sources */,
 				A9C2838C2808345900329FAC /* ProfileHost.swift in Sources */,
+				A94B0F322809A50C008E0BF4 /* URLImage.swift in Sources */,
 				A9C28357280821B100329FAC /* Hike.swift in Sources */,
 				A9C283A028083FE900329FAC /* Persistence.swift in Sources */,
 				A9C283522808209800329FAC /* RotatedBadgeSymbol.swift in Sources */,

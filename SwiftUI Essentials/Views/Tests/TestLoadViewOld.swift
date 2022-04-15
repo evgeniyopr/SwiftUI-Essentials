@@ -22,11 +22,8 @@ struct TestLoadOldView: View {
             ).frame(width: 200, height: 200)
             
             ForEach(0..<10) { index in
-                AsyncImageLoading(
-                    url: URL(string: largeSample)!,
-                    placeholder: { Text("Loading ...") },
-                    image: { Image(uiImage: $0).resizable() }
-                ).frame(width: 200, height: 200)
+                URLImage(urlString: largeSample)
+                    .frame(width: 200, height: 200)
             }
             
             Spacer()
