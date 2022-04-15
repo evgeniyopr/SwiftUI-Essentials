@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92C6A322809543900A2EE18 /* TestAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A312809543900A2EE18 /* TestAddTask.swift */; };
+		A92C6A342809614B00A2EE18 /* TestLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A332809614B00A2EE18 /* TestLoadView.swift */; };
+		A92C6A36280971DA00A2EE18 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A35280971DA00A2EE18 /* AsyncImage.swift */; };
+		A92C6A38280971DF00A2EE18 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A37280971DF00A2EE18 /* ImageCache.swift */; };
+		A92C6A3A280971E400A2EE18 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A39280971E400A2EE18 /* ImageLoader.swift */; };
+		A92C6A3C280971E800A2EE18 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A3B280971E800A2EE18 /* EnvironmentValues+ImageCache.swift */; };
+		A92C6A3F2809723800A2EE18 /* TestLoadViewOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C6A3E2809723800A2EE18 /* TestLoadViewOld.swift */; };
 		A9C2834F2808209200329FAC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909693028082033002734E5 /* Badge.swift */; };
 		A9C283502808209500329FAC /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909692F28082033002734E5 /* BadgeBackground.swift */; };
 		A9C283512808209800329FAC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909693228082033002734E5 /* BadgeSymbol.swift */; };
@@ -30,6 +37,12 @@
 		A9C2839628083B7800329FAC /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2839528083B7800329FAC /* FeatureCard.swift */; };
 		A9C2839828083BBA00329FAC /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2839728083BBA00329FAC /* PageView.swift */; };
 		A9C2839B28083D0500329FAC /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2839A28083D0500329FAC /* PageControl.swift */; };
+		A9C2839E28083F3C00329FAC /* Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C2839C28083F3C00329FAC /* Stash.xcdatamodeld */; };
+		A9C283A028083FE900329FAC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2839F28083FE900329FAC /* Persistence.swift */; };
+		A9C283A2280863A600329FAC /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C283A1280863A600329FAC /* BlurView.swift */; };
+		A9C283A5280864B500329FAC /* HUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C283A4280864B500329FAC /* HUDProgressView.swift */; };
+		A9C283A82808695500329FAC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C283A72808695500329FAC /* Tests.swift */; };
+		A9C283AA28086EBE00329FAC /* AlertControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C283A928086EBE00329FAC /* AlertControllerView.swift */; };
 		A9F5A67828080BCF00D04550 /* SwiftUI_EssentialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A67728080BCF00D04550 /* SwiftUI_EssentialsApp.swift */; };
 		A9F5A67A28080BCF00D04550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A67928080BCF00D04550 /* ContentView.swift */; };
 		A9F5A67C28080BD300D04550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F5A67B28080BD300D04550 /* Assets.xcassets */; };
@@ -51,6 +64,13 @@
 		A909693128082033002734E5 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		A909693228082033002734E5 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		A909693328082033002734E5 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		A92C6A312809543900A2EE18 /* TestAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAddTask.swift; sourceTree = "<group>"; };
+		A92C6A332809614B00A2EE18 /* TestLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadView.swift; sourceTree = "<group>"; };
+		A92C6A35280971DA00A2EE18 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		A92C6A37280971DF00A2EE18 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		A92C6A39280971E400A2EE18 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A92C6A3B280971E800A2EE18 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		A92C6A3E2809723800A2EE18 /* TestLoadViewOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadViewOld.swift; sourceTree = "<group>"; };
 		A9C283542808218000329FAC /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		A9C28356280821B100329FAC /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		A9C283592808224F00329FAC /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -69,6 +89,12 @@
 		A9C2839528083B7800329FAC /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		A9C2839728083BBA00329FAC /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A9C2839A28083D0500329FAC /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		A9C2839D28083F3C00329FAC /* Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stash.xcdatamodel; sourceTree = "<group>"; };
+		A9C2839F28083FE900329FAC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A9C283A1280863A600329FAC /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A9C283A4280864B500329FAC /* HUDProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDProgressView.swift; sourceTree = "<group>"; };
+		A9C283A72808695500329FAC /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		A9C283A928086EBE00329FAC /* AlertControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerView.swift; sourceTree = "<group>"; };
 		A9F5A67428080BCF00D04550 /* SwiftUI Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Essentials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F5A67728080BCF00D04550 /* SwiftUI_EssentialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_EssentialsApp.swift; sourceTree = "<group>"; };
 		A9F5A67928080BCF00D04550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +132,17 @@
 				A909693128082033002734E5 /* HexagonParameters.swift */,
 			);
 			path = Badges;
+			sourceTree = "<group>";
+		};
+		A92C6A3D280971EF00A2EE18 /* AsyncImageDownloading */ = {
+			isa = PBXGroup;
+			children = (
+				A92C6A35280971DA00A2EE18 /* AsyncImage.swift */,
+				A92C6A37280971DF00A2EE18 /* ImageCache.swift */,
+				A92C6A39280971E400A2EE18 /* ImageLoader.swift */,
+				A92C6A3B280971E800A2EE18 /* EnvironmentValues+ImageCache.swift */,
+			);
+			path = AsyncImageDownloading;
 			sourceTree = "<group>";
 		};
 		A9C283582808224F00329FAC /* Hikes */ = {
@@ -151,6 +188,28 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		A9C283A32808647F00329FAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A92C6A3D280971EF00A2EE18 /* AsyncImageDownloading */,
+				A9C283A1280863A600329FAC /* BlurView.swift */,
+				A9C283A4280864B500329FAC /* HUDProgressView.swift */,
+				A9C283A928086EBE00329FAC /* AlertControllerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A9C283A62808693500329FAC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C283A72808695500329FAC /* Tests.swift */,
+				A92C6A312809543900A2EE18 /* TestAddTask.swift */,
+				A92C6A332809614B00A2EE18 /* TestLoadView.swift */,
+				A92C6A3E2809723800A2EE18 /* TestLoadViewOld.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		A9F5A66B28080BCF00D04550 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +232,7 @@
 				A9F5A67728080BCF00D04550 /* SwiftUI_EssentialsApp.swift */,
 				A9F5A6942808136A00D04550 /* Views */,
 				A9F5A6952808137C00D04550 /* Resources */,
+				A9C283A32808647F00329FAC /* Utils */,
 				A9F5A6932808135C00D04550 /* Model */,
 				A9F5A67B28080BD300D04550 /* Assets.xcassets */,
 				A9F5A67D28080BD300D04550 /* Preview Content */,
@@ -191,6 +251,7 @@
 		A9F5A6932808135C00D04550 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9C2839C28083F3C00329FAC /* Stash.xcdatamodeld */,
 				A9F5A68F28080F3F00D04550 /* Landmark.swift */,
 				A9F5A6912808134700D04550 /* ModelData.swift */,
 				A9C28356280821B100329FAC /* Hike.swift */,
@@ -210,6 +271,7 @@
 				A9C283582808224F00329FAC /* Hikes */,
 				A9C2838A2808344500329FAC /* Profile */,
 				A9C2839928083CAA00329FAC /* PageView */,
+				A9C283A62808693500329FAC /* Tests */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +281,7 @@
 			children = (
 				A9F5A68D28080F1600D04550 /* landmarkData.json */,
 				A9C283542808218000329FAC /* hikeData.json */,
+				A9C2839F28083FE900329FAC /* Persistence.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -226,8 +289,8 @@
 		A9F5A69E280817CE00D04550 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				A9F5A696280813B400D04550 /* LandmarkRow.swift */,
 				A9F5A698280813E800D04550 /* LandmarkList.swift */,
+				A9F5A696280813B400D04550 /* LandmarkRow.swift */,
 				A9F5A69A2808143900D04550 /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
@@ -315,26 +378,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92C6A342809614B00A2EE18 /* TestLoadView.swift in Sources */,
+				A9C283A82808695500329FAC /* Tests.swift in Sources */,
 				A9C283842808305200329FAC /* CategoryRow.swift in Sources */,
 				A9C283892808341E00329FAC /* Profile.swift in Sources */,
 				A9C283532808209800329FAC /* HexagonParameters.swift in Sources */,
+				A92C6A36280971DA00A2EE18 /* AsyncImage.swift in Sources */,
 				A9C2838228082F8A00329FAC /* CategoryHome.swift in Sources */,
 				A9C2839628083B7800329FAC /* FeatureCard.swift in Sources */,
 				A9C2835E2808224F00329FAC /* HikeGraph.swift in Sources */,
 				A9F5A67A28080BCF00D04550 /* ContentView.swift in Sources */,
 				A9F5A68C28080E2500D04550 /* CircleImage.swift in Sources */,
+				A92C6A322809543900A2EE18 /* TestAddTask.swift in Sources */,
+				A92C6A38280971DF00A2EE18 /* ImageCache.swift in Sources */,
 				A9C2835D2808224F00329FAC /* GraphCapsule.swift in Sources */,
+				A9C2839E28083F3C00329FAC /* Stash.xcdatamodeld in Sources */,
 				A9C2834F2808209200329FAC /* Badge.swift in Sources */,
 				A9C2839B28083D0500329FAC /* PageControl.swift in Sources */,
 				A9F5A68B28080E2500D04550 /* MapView.swift in Sources */,
 				A9C28386280830A200329FAC /* CategoryItem.swift in Sources */,
+				A92C6A3F2809723800A2EE18 /* TestLoadViewOld.swift in Sources */,
 				A9C2835F2808224F00329FAC /* HikeDetail.swift in Sources */,
+				A92C6A3C280971E800A2EE18 /* EnvironmentValues+ImageCache.swift in Sources */,
 				A9C2838E2808349E00329FAC /* ProfileSummary.swift in Sources */,
 				A9F5A69D2808179800D04550 /* FavoriteButton.swift in Sources */,
 				A9C2838C2808345900329FAC /* ProfileHost.swift in Sources */,
 				A9C28357280821B100329FAC /* Hike.swift in Sources */,
+				A9C283A028083FE900329FAC /* Persistence.swift in Sources */,
 				A9C283522808209800329FAC /* RotatedBadgeSymbol.swift in Sources */,
 				A9C2839828083BBA00329FAC /* PageView.swift in Sources */,
+				A9C283A2280863A600329FAC /* BlurView.swift in Sources */,
+				A92C6A3A280971E400A2EE18 /* ImageLoader.swift in Sources */,
 				A9C283512808209800329FAC /* BadgeSymbol.swift in Sources */,
 				A9C28392280837BD00329FAC /* ProfileEditor.swift in Sources */,
 				A9F5A699280813E800D04550 /* LandmarkList.swift in Sources */,
@@ -345,6 +419,8 @@
 				A9C283902808355000329FAC /* HikeBadge.swift in Sources */,
 				A9F5A67828080BCF00D04550 /* SwiftUI_EssentialsApp.swift in Sources */,
 				A9F5A69028080F3F00D04550 /* Landmark.swift in Sources */,
+				A9C283A5280864B500329FAC /* HUDProgressView.swift in Sources */,
+				A9C283AA28086EBE00329FAC /* AlertControllerView.swift in Sources */,
 				A9F5A697280813B400D04550 /* LandmarkRow.swift in Sources */,
 				A9F5A6922808134700D04550 /* ModelData.swift in Sources */,
 			);
@@ -549,6 +625,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9C2839C28083F3C00329FAC /* Stash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9C2839D28083F3C00329FAC /* Stash.xcdatamodel */,
+			);
+			currentVersion = A9C2839D28083F3C00329FAC /* Stash.xcdatamodel */;
+			path = Stash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A9F5A66C28080BCF00D04550 /* Project object */;
 }
